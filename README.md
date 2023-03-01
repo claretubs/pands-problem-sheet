@@ -31,6 +31,8 @@ I did this by creating two inputs in cents for the user to input from. Then both
 The program in this task is called accounts.py and the purpose of it is to read a 10 character account number and out the account number with only the last 4 digits showing and having the first 6 digits replaced with X's.
 
 ### **Week 04**
+[Square Bracket Removal](https://python.engineering/python-remove-square-brackets-from-list/)
+[Collatz Sequence Python](https://www.youtube.com/watch?v=lAp_5qTdOhM)
 
 ## Rescources
 
