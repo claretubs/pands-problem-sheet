@@ -36,7 +36,7 @@ python .\bank.py
 User input :
 ```
 Please enter your first amount in cents: 58
-Please enter your first amount in cents: 70
+Please enter your second amount in cents: 70
 ```
 Output :
 
