@@ -17,12 +17,14 @@ This task was to allow me familiarise myself with cmder and VScode. I created a 
 
 ### **Week 02 - Bank**
 
-This program was called bank.py and it needed to do three things:
+>Write a program that can do the following:
 1. Prompt the user and read in two money amounts in cents.
 2. Add the two amounts.
 3. Print out the answer in a readable format in euro and have a decimal point between the euro and cent of the amount.
 
-I did this by creating two inputs in cents for the user to input from. Then both of these amounts were added together and divided by 100 in order to find the value in euro. I added the euro sign to the print statement so that the output looked somewhat like this: €X.XX.
+User must input two values in cents. To ensure the values are not interpreted as strings, the string input must be converted into an integer. The two inputs are then added together. The important thing here is not forget to convert the final cents amount into euro in order to get the desired result. A float value will allow the decimal point to be in the answer.
+
+Then both of these amounts were added together and divided by 100 in order to find the value in euro. I added the euro sign to the print statement so that the output looked somewhat like this: €X.XX.
 
 ### **Week 03 - Accounts**
 
@@ -31,6 +33,10 @@ I did this by creating two inputs in cents for the user to input from. Then both
 The program in this task is called accounts.py and the purpose of it is to read a 10 character account number and out the account number with only the last 4 digits showing and having the first 6 digits replaced with X's.
 
 ### **Week 04**
+> Write a python program that asks the user to input any positive integer and outputs the successive values of the following calculation:
+
+At each step calculate the next value by taking the current value and, if it is even, divide by two, but if it is odd, mulitiply it by three and add one.
+
 [Square Bracket Removal](https://python.engineering/python-remove-square-brackets-from-list/)
 [Collatz Sequence Python](https://www.youtube.com/watch?v=lAp_5qTdOhM)
 
