@@ -6,6 +6,7 @@
     * [Week 02 - Bank](#week-02---bank)
     * [Week 03 - Accounts](#week-03---accounts)
     * [Week 04 - Collatz](#week-04---collatz)
+    * [Week 05 - Weekday](#week-05---Weekday)
 * [Resources](#rescources)
 * [Technologies](#technolgies)
 
@@ -13,7 +14,9 @@
 
 ### ***Week 01 - Hello World***
 
-This task was to allow me familiarise myself with cmder and VScode. I created a program called helloworld.py. It was a basic code used to print Hello World using python. I used the lecture slides and videos to help me create this code.  
+This task was to allow me familiarise myself with cmder and VScode. I created a program called helloworld.py. It was a basic code used to print Hello World using python. I used the lecture slides and videos to help me create this code.
+
+- - - -
 
 ### ***Week 02 - Bank***
 
@@ -46,6 +49,8 @@ The total amount of money is €1.28
 </p>
 </details>
 
+- - - -
+
 ### ***Week 03 - Accounts***
 
 >Write a python program called that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
@@ -72,6 +77,8 @@ Your account number is: XXXXXX7890
 ```
 </p>
 </details>
+
+- - - -
 
 ### ***Week 04 - Collatz***
 > Write a python program that asks the user to input any positive integer and outputs the successive values of the following calculation:
@@ -101,6 +108,10 @@ Output :
 ```
 </p>
 </details>
+
+- - - -
+
+### ***Week 05 - Weekday***
 
 ## Rescources
 
