@@ -7,6 +7,7 @@
     * [Week 03 - Accounts](#week-03---accounts)
     * [Week 04 - Collatz](#week-04---collatz)
     * [Week 05 - Weekday](#week-05---Weekday)
+    * [Week 06 - Squareroot](#week-05---squareroot)
 * [Resources](#rescources)
 * [Technologies](#technolgies)
 
@@ -112,6 +113,38 @@ Output :
 - - - -
 
 ### ***Week 05 - Weekday***
+> Write program that outputs whether or not today is a weekday.
+
+In order to manipulate the date and time in this program, a datetime module must be imported. This program does not require any user input. The program first determines the [Current Date](https://www.w3schools.com/python/python_datetime.asp) and then from that it determines what day of the week it is. The [Days of the Week](https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python) are stored as numbers, 0 to 6, 0 being Monday and 6 being Sunday.
+
+A simple *if* statement can determine if it is a weekday or weekend. Saturday and Sunday are represented by the numbers 5 and 6. Therefore,any number below 5 is a weekday. 
+
+To ensure this program is running correctly, it should be tested on a weekday and weekend.
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+python .\weekday.py
+```
+Output if Weekday :
+```
+Yes, unfortunately today is a weekday
+```
+Output if not Weekday:
+
+```
+It is the weekend, yay!
+```
+</p>
+</details>
+
+- - - -
+
+### ***Week 06 - Squareroot***
 
 ## Rescources
 
