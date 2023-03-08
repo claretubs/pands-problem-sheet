@@ -7,7 +7,7 @@
     * [Week 03 - Accounts](#week-03---accounts)
     * [Week 04 - Collatz](#week-04---collatz)
     * [Week 05 - Weekday](#week-05---Weekday)
-    * [Week 06 - Squareroot](#week-05---squareroot)
+    * [Week 06 - Squareroot](#week-06---squareroot)
 * [Resources](#rescources)
 * [Technologies](#technolgies)
 
