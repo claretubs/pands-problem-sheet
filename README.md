@@ -145,6 +145,9 @@ It is the weekend, yay!
 - - - -
 
 ### ***Week 06 - Squareroot***
+>Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+
+[Newtons Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/)
 
 ## Rescources
 

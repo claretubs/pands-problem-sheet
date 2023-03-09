@@ -19,4 +19,4 @@ while number != 1:                          # continues loop until value reaches
         number = int((number * 3) + 1)      # odd number gets multiplied by 3 and then 1 is added.
 
 newNumber = str (numbers) [ 1 : - 1 ]       # removes sqaure brackets
-print(newNumber, end=' ', sep='')           # end = " " allows output to be on one line
+print(newNumbers, end="")           # end = " " allows output to be on one line
