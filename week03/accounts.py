@@ -5,4 +5,8 @@
 
 account_number = input("Please enter your 10 digit account number: ")
 
-print(f"Your account number is: XXXXXX{account_number[6:]}")
+x = 'XXXXXX'
+
+# The two variables are merged together
+
+print(f"Your account number is:{x + account_number[6:]}")
