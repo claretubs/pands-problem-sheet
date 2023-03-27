@@ -8,7 +8,6 @@
     * [Week 04 - Collatz](#week-04---collatz)
     * [Week 05 - Weekday](#week-05---Weekday)
     * [Week 06 - Squareroot](#week-06---squareroot)
-* [Resources](#rescources)
 * [Technologies](#technolgies)
 
 ## **Weekly Tasks**
@@ -147,9 +146,40 @@ It is the weekend, yay!
 ### ***Week 06 - Squareroot***
 >Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 
-[Newtons Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/)
+This program required many hours of research. In order to make the program, it was vital to learn how [Newtons Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/) worked. Once this method was understood, it was just a matter of implementing mathemathical formulas. 
 
-## Rescources
+To ensure the input is a postive number, a *while* lopp is incorporated into the program. If the number entered was zero or less, an error pops up informing the user they need to try again with a postive value. It is important to remember that the input value must be a float value.
+
+The funtion was created using the key word *sqrt()*. 
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+python .\squareroot.py
+```
+User input :
+```
+Please enter a postive number: 14.5
+```
+User input for negative value:
+```
+Please enter a postive number: -5
+This is not a positive number
+Try again! Any postive number: 14.5
+```
+Output :
+
+```
+ The sqaure root of 14.5 is approx 3.8
+```
+</p>
+</details>
+
+- - - -
 
 ## Technolgies 
   * Visual Studio Code - version 1.74.3
