@@ -8,6 +8,8 @@
     * [Week 04 - Collatz](#week-04---collatz)
     * [Week 05 - Weekday](#week-05---Weekday)
     * [Week 06 - Squareroot](#week-06---squareroot)
+    * [Week 07 - E's](#week-07---e's)
+    * [Week 08 - Plot Task](#week-08---plot-task)
 * [Technologies](#technolgies)
 
 ## **Weekly Tasks**
@@ -152,7 +154,6 @@ To ensure the input is a postive number, a *while* loop is incorporated into the
 
 The funtion was created using the key word *sqrt()*. To start this function, an intial guess (which is reasonably close to the true root) is assigned to the variable *x*. The intial guess is equal to the value entered by the user for the first iteration. [Newtons Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/) is an iterative process, therefore, a *while* loop is necessary in the function. In order to count the iterations in the *while* loop, the *count* is initially set to zero. The *while* loop checks for one codition of convergance while the *if* statement checks for one other condition of convergance. The value *1e-9* was used in order to get as close as possible to zero. After the *if* statement the root is updated in the variable *x* and the iteration begins again. This process continues until the conditions are no longer true, and the function returns the value of the root. The value is rounded to one decimal place.
 
-
 <details>
            <summary>User point of view</summary>
            <p>
@@ -182,7 +183,36 @@ Output :
 
 - - - -
 
+### ***Week 07 - E's***
+>Write a program that reads in a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line.
+
+Program reads a text file called by the user from an arguement on the command line. In order to call upon the text file, it must be in the same directory as the program.
+
+By importing [sys](https://docs.python.org/3.8/library/sys.html), the module provides acess to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. [sys.argv()](https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/) is an array for command line arguments in python. The script name is held in *argv[0]*. Therefore, the text filename is held in the second arguement, *argv[1]*.
+
+The [With Open in Python](https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/) allows you to work with files by opening them. The *open()* function must be used in conjunction with the *close()* function. However, the *with* statement closes the file for you without being told to. There are two parameters in the *open()* function - the filename and the mode. The content of the file is stored in the variable *e*. Using the [Count](https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/) method all the e's in the text file (upper case and lower case) are found and added together.
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+python .\es.py file.txt
+```
+Output :
+
+```
+The letter 'e' shows up 9 times
+```
+</p>
+</details>
+
+- - - -
+
+### ***Week 08 - Plot Task***
+
 ## Technolgies 
   * Visual Studio Code - version 1.74.3
   * Cmder - version 1.3.14.982
-
