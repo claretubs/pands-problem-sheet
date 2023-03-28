@@ -146,11 +146,12 @@ It is the weekend, yay!
 ### ***Week 06 - Squareroot***
 >Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 
-This program required many hours of research. In order to make the program, it was vital to learn how [Newtons Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/) worked. Once this method was understood, it was just a matter of implementing mathemathical formulas. 
+This program required many hours of research. In order to make the program, it was vital to learn how [Newtons Method](https://calcworkshop.com/derivatives/newtons-method/) worked. Once this method was understood, it was just a matter of implementing mathemathical formulas. 
 
-To ensure the input is a postive number, a *while* lopp is incorporated into the program. If the number entered was zero or less, an error pops up informing the user they need to try again with a postive value. It is important to remember that the input value must be a float value.
+To ensure the input is a postive number, a *while* loop is incorporated into the program. If the number entered was zero or less, an error pops up informing the user they need to try again with a postive value. It is important to remember that the input value must be a float value.
 
-The funtion was created using the key word *sqrt()*. 
+The funtion was created using the key word *sqrt()*. To start this function, an intial guess (which is reasonably close to the true root) is assigned to the variable *x*. The intial guess is equal to the value entered by the user for the first iteration. [Newtons Method](https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/) is an iterative process, therefore, a *while* loop is necessary in the function. In order to count the iterations in the *while* loop, the *count* is initially set to zero. The *while* loop checks for one codition of convergance while the *if* statement checks for one other condition of convergance. The value *1e-9* was used in order to get as close as possible to zero. After the *if* statement the root is updated in the variable *x* and the iteration begins again. This process continues until the conditions are no longer true, and the function returns the value of the root. The value is rounded to one decimal place.
+
 
 <details>
            <summary>User point of view</summary>
