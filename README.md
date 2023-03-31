@@ -8,7 +8,7 @@
     * [Week 04 - Collatz](#week-04---collatz)
     * [Week 05 - Weekday](#week-05---Weekday)
     * [Week 06 - Squareroot](#week-06---squareroot)
-    * [Week 07 - E's](#week-07---e's)
+    * [Week 07 - Es](#week-07---es)
     * [Week 08 - Plot Task](#week-08---plot-task)
 * [Technologies](#technolgies)
 
@@ -183,7 +183,7 @@ Output :
 
 - - - -
 
-### ***Week 07 - E's***
+### ***Week 07 - Es***
 >Write a program that reads in a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line.
 
 Program reads a text file called by the user from an arguement on the command line. In order to call upon the text file, it must be in the same directory as the program.
@@ -215,13 +215,32 @@ The letter 'e' shows up 9 times
 >Write a program called plottask.py that displays:
 >
 >* a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
->* and a plot of the function  h(x)=x3 in the range [0, 10], 
+>* and a plot of the function  h(x)=x^3 in the range [0, 10], 
 >
 >on the one set of axes.
 
-This program required two modules to be imported in order to make the plots. These modules were *numpy* and *matplotlib.pyplot*.
+This program required two modules to be imported in order to make the plots. These modules were *numpy* and *matplotlib.pyplot*. To ensure the random numbers generated for this task were the same each time it ran, the *seed()* method was used. A [Histogram](https://www.w3schools.com/python/matplotlib_histograms.asp) is made from the numbers the program randomly generates. As it follows, the values in the brackets are the mean, standard deviation and number of values. Once the histogram is made, the function *h(x) = x ^ 3* is plotted on the same graph. The function ranges from 1 to 10. 
 
-[Histogram](https://www.w3schools.com/python/matplotlib_histograms.asp)
+The functions *title()*, *xlabel()* and *ylabel()* were taken from the *matplotlip.pyplot* library to label the plot. The fonts for all the [Labels](https://www.w3schools.com/python/matplotlib_labels.asp) were edited using the variables *font1* and *font2*. They set the style, size and colour of the font. A legend was made to help the user identify the histogram and function.
+
+<details>
+           <summary>User point of view</summary>
+           <p>
+
+User call of the program is :
+
+```
+python .\plottask.py
+```
+Output :
+
+```
+An image of a plot will pop up once the program is run.
+```
+</p>
+</details>
+
+- - - -
 
 ## Technolgies 
   * Visual Studio Code - version 1.74.3
