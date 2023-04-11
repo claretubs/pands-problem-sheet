@@ -3,10 +3,18 @@
 #Author: Clare Tubridy
 #Date: 09/02/2023
 
+def replaced_account_number(account_number):
+    if len(account_number) <=4:
+        return account_number
+    
+    replace = 'X' * (len(account_number) - 4)
+    replace += account_number[-4:]
+
+    return replace
+
+
 account_number = input("Please enter your 10 digit account number: ")
 
-x = 'XXXXXX'
+new_account_number = replaced_account_number(account_number)
 
-# The two variables are merged together
-
-print(f"Your account number is:{x + account_number[6:]}")
+print(f"Your account number is:{new_account_number}")
