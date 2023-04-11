@@ -30,4 +30,3 @@ def sqrt(number):
 n = round(sqrt(number),1)                   # round to one decimal place
 
 print(f"The sqaure root of {number} is approx {n}")
-
