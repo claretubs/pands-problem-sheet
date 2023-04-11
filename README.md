@@ -55,9 +55,10 @@ The total amount of money is €1.28
 
 ### ***Week 03 - Accounts***
 
->Write a python program called that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
+>Write a python program called that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs). Modify the program to deal with account numbers of any length.
 
-User inputs a string of 10 characters long as their account number. and out the account number with only the last 4 digits showing and having the first 6 digits replaced with X's.
+The function *replaced_account_number* takes in one arguement called *account_number* which is a string the user inputs. This is the account number that is going to be masked in the program. This function allows for an account number of any length, not just 10 characters. It checks the length of the account number and returns it unmodifed if it has a length of 4 or less. In the case stated previously, there are no chacaters to replace if there are 4 or less. The variable *replace* takes the length of the account number and replaces all characters but the last four in the account number. The *new_account_number* calls the funtion.
+
 
 <details>
            <summary>User point of view</summary>
