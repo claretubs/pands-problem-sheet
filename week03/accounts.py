@@ -7,6 +7,7 @@ def replaced_account_number(account_number):
     if len(account_number) <=4:
         return account_number
     
+    # Replaces all numbers in the account with a X, except the last 4 numbers.
     replace = 'X' * (len(account_number) - 4)
     replace += account_number[-4:]
 
