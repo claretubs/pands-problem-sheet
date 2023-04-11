@@ -7,6 +7,7 @@ import sys                                  # allows to to take command line arg
 
 filename = sys.argv[1]
 
+
 with open(filename, 'r') as f:
     e = f.read()                            # store content of the file in a variable
     count = e.count('e') + e.count('E')     # counts upper and lower case e
