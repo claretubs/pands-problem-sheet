@@ -7,7 +7,7 @@ import datetime                                     # Importing the datetime mod
 current_date = datetime.datetime.now()              # Determines current date
 day = current_date.weekday()                        # Determines the day of the week
 
-#Weekday is stored as a number, 0-6, 0 being Monday.
+# Weekday is stored as a number, 0-6, 0 being Monday
 if day < 5:                                         # Monday to Friday
     print("Yes, unfortunately today is a weekday")
 else:                                               # Saturday and Sunday
