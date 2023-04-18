@@ -3,11 +3,12 @@
 # Author: Clare Tubridy
 # 28-03-2023
 
-import sys                                  # allows to to take command line argument
+import sys                                  # allows to take command line argument
 
+# The text filename is held in the second arguement, argv[1]
 filename = sys.argv[1]
 
-
+# Opens files without having to use the close() function
 with open(filename, 'r') as f:
     e = f.read()                            # store content of the file in a variable
     count = e.count('e') + e.count('E')     # counts upper and lower case e
