@@ -87,9 +87,12 @@ Your account number is: XXXXXX7890
 > Write a python program that asks the user to input any positive integer and outputs the successive values of the following calculation:
 >At each step calculate the next value by taking the current value and, if it is even, divide by two, but if it is odd, multiply it by three and add one.
 
-User inputs any postive integer. It is then determined whether that positive integer is even or odd, with the help of conditional statements *if* and *else*. The *if* statement checks if the positive inetger is even by using modulus operation. If the remainder of the operation is zero, the number is even. Hence, the program preforms the calculations (divide by 2) stated in the *if* statement and prints it out. However, if the remainder of the modulus operation is not zero, the program preforms the calculations (multiply by three and add one) stated in the *else* statment. This set of operations can otherwise be known as [Collatz Sequence Python](https://www.youtube.com/watch?v=lAp_5qTdOhM)
+User inputs any postive integer which is stored in the variable *number*. The *while* runs as long as *number* is not eqaul to 1. The print statment allows the current value of *number* to be printed at each iteration. In order to make the output list look neater, [end = ' '](https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/) parameter is used to seperate the numbers with a space instead of a newline character.
 
-The *while* loop ensures the step outlined above is repeated for every number until it reaches one. It also allows for list of numbers to be created. In order to make the output list look neater, two steps were carried out. Originally, each value of the output was displayed on a new line. [Print without a New Line](https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/) made the results more compact and easier to read. [Square Bracket Removal](https://python.engineering/python-remove-square-brackets-from-list/) was to remove the sqaure brackets at either side of the list to acieve the desired result. 
+It is then determined whether that positive integer is even or odd, with the help of conditional statements *if* and *else*. The *if* statement checks if the positive inetger is even by using modulus operation. If the remainder of the operation is zero, the number is even. Hence, the program preforms the calculations (divide by 2) stated in the *if* statement and prints it out. [Integer Division](https://www.geeksforgeeks.org/division-operators-in-python/) *//* is used instead of regular dvision */*. Integer dvision returns the floor value (rounds down to the nearest whole number) for both integer and floating-point arguments. It is important to use this type of division as the desired result is an integer, which is required for the next iteration of the algorithm to work correctly. 
+
+ However, if the remainder of the modulus operation is not zero, the program preforms the calculations (multiply by three and add one) stated in the *else* statment. This set of operations can otherwise be known as [Collatz Sequence Python](https://www.youtube.com/watch?v=lAp_5qTdOhM). Once *number* becomes 1, the loop terminates and the fianl value of *number* is printed to the screen.
+ 
 
 <details>
            <summary>User point of view</summary>
@@ -107,7 +110,7 @@ Please Enter a Positive integer: 10
 Output :
 
 ```
-10, 5, 16, 8, 4, 2 
+ 10 5 16 8 4 2 1
 ```
 </p>
 </details>
