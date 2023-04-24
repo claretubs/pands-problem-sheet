@@ -57,7 +57,9 @@ The total amount of money is €2.45
 
 >Write a python program called that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs). Modify the program to deal with account numbers of any length.
 
-The function *replaced_account_number* takes in one arguement called *account_number* which is a string the user inputs. This is the account number that is going to be masked in the program. This function allows for an account number of any length, not just 10 characters. It checks the length of the account number and returns it unmodifed if it has a length of 4 or less. In the case stated previously, there are no chacaters to replace if there are 4 or less. The variable *replace* takes the length of the account number and replaces all characters but the last four in the account number. The *new_account_number* calls the funtion.
+The function *replaced_account_number* takes in one arguement called *account_number* which is a string the user inputs. This is the account number that is going to be masked in the program. This function allows for an account number of any length, not just 10 characters. It checks the length of the account number and returns it unmodifed if it has a length of 4 or less. In the case stated previously, there are no chacaters to replace if there are 4 or less.
+
+If the length of the account number is greater than 4 then a string called *replace* is created. The variable *replace* takes the [Length](https://www.geeksforgeeks.org/python-string-length-len/) of the account number and replaces all characters but the last 4 in the account number. The last 4 digits of the accoint number are appended to the end of the *replace* string, so that we have the last 4 digits of the account number and the first 6 digits replaced with 'X' characters. This is done using [Slicing](https://www.w3schools.com/python/python_strings_slicing.asp) The *new_account_number* calls the funtion.
 
 
 <details>
