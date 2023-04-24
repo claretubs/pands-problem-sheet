@@ -7,16 +7,16 @@
 # Author: Clare Tubridy
 # Date: 01/03/2023
 
-numbers = []
-
 number = int(input("Please Enter a Positive integer: "))
 
 while number != 1:                          # continues loop until value reaches 1
-    numbers.append(number)                  # creates list of numbers
-    if (number % 2) == 0:                   # even numbers
-        number = int(number // 2)           # even number gets divided by 2 using integer division('//') instead of regular division('/')
-    else:                                   # odd numbers
-        number = int((number * 3) + 1)      # odd number gets multiplied by 3 and then 1 is added.
 
-newNumber = str (numbers) [ 1 : - 1 ]       # removes sqaure brackets
-print(newNumber, end=" ")          
+    # current value of num is printed at each iteration
+    print(number, end = ' ')                # end parameter seperates the numbers with a space instead of a newline character
+    
+    if (number % 2) == 0:                   # even numbers
+        number = number // 2                # even number gets divided by 2 using integer division('//') instead of regular division('/')
+    else:                                   # odd numbers
+        number = (number * 3) + 1           # odd number gets multiplied by 3 and then 1 is added.
+
+print(number)          
